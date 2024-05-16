@@ -5,7 +5,11 @@ namespace InterviewCoding.Refactoring
 {
     internal class ImproveCodeExercise
     {
-        private PersonContext _personContext;
+        private readonly PersonContext _personContext;
+        public ImproveCodeExercise()
+        {
+            _personContext = new PersonContext();
+        }
 
         public List<Person> GetPeopleOver(int age, int numberOfRecords)
         {
