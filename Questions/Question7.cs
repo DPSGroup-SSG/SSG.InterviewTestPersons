@@ -8,7 +8,7 @@ Prerequesite: Must have completed GetAll function in the PersonService (part of 
 
 What is an Extension Method?
 Create an Extension Method called Reverse to reverse the Full Name strings on line 30 below.
-When complete, uncommment line 31 below and display the reverse name output
+When complete, uncommment line 31 below and display the reverse name output.
 
 */
 
