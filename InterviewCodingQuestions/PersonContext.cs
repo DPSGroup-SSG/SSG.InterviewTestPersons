@@ -7,6 +7,7 @@ namespace InterviewCoding
     {
         private List<Person> _persons;
         private List<Address> _addresses;
+        private List<Town> _towns;
 
         public List<Person> Persons
         {
@@ -15,6 +16,10 @@ namespace InterviewCoding
         public List<Address> Addresses
         {
             get { return _addresses; }
+        }
+        public List<Town> Towns
+        {
+            get { return _towns; }
         }
 
         public PersonContext()
@@ -37,7 +42,17 @@ namespace InterviewCoding
                 new Address() { AddressLine = "1 Gran Via Madrid", Country = Country.Spain, Id = 3 },
                 new Address() { AddressLine = "1 Disneyland Paris", Country = Country.France, Id = 4 },
                 new Address() { AddressLine = "1 Lake Garda", Country = Country.Italy, Id = 5 },
-                new Address() { AddressLine = "10 Downing Street", Country = Country.England, Id = 6 },
+                new Address() { AddressLine = "10 Downing Street", Country = Country.England, Id = 6 }
+            };
+
+            _towns = new List<Town>()
+            {
+                new Town() { Name = "Dublin", Country = Country.Ireland  },
+                new Town() { Name = "Carlow", Country = Country.Ireland  },
+                new Town() { Name = "Barcelona", Country = Country.Spain },
+                new Town() { Name = "Paris", Country = Country.France },
+                new Town() { Name = "Rome", Country = Country.Italy},
+                new Town() { Name = "London", Country = Country.England}
             };
         }
     }
@@ -54,6 +69,11 @@ namespace InterviewCoding
     {
         public int Id { get; set; }
         public string AddressLine { get; set; }
+        public Country Country { get; set; }
+    }
+    public class Town
+    {
+        public string Name { get; set; }
         public Country Country { get; set; }
     }
 

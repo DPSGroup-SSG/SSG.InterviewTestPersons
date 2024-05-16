@@ -2,7 +2,7 @@
 using System.IO;
 
 
-namespace InterviewCoding.Questions
+namespace InterviewCoding.Refactoring
 {
     public class PersonLogger
     {
