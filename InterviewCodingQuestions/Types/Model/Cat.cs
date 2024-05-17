@@ -5,6 +5,6 @@ namespace InterviewCoding.Types.Model
 {
     public class Cat
     {
-        public int JumpDistance { get; set; }
+        public int NapTimeLength { get; set; }
     }
 }

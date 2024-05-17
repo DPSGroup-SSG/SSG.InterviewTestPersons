@@ -26,10 +26,10 @@ namespace InterviewCoding.Types.Data
         {
             _cats = new List<Cat>()
             {
-                //new Cat { FirstName = "Frank", LastName = "Murphy", JumpDistance = 5, TagNumber = 1},
-                //new Cat { FirstName = "Billy", LastName = "Murphy", JumpDistance = 9, TagNumber = 2},
-                //new Cat { FirstName = "Joe", LastName = "Murphy", JumpDistance = 4, TagNumber = 3},
-                //new Cat { FirstName = "John", LastName = "Murphy", JumpDistance = 2, TagNumber = 4},
+                //new Cat { FirstName = "Frank", LastName = "Murphy", NapTimeLength = 5, TagNumber = 1},
+                //new Cat { FirstName = "Billy", LastName = "Murphy", NapTimeLength = 9, TagNumber = 2},
+                //new Cat { FirstName = "Joe", LastName = "Murphy", NapTimeLength = 4, TagNumber = 3},
+                //new Cat { FirstName = "John", LastName = "Murphy", NapTimeLength = 2, TagNumber = 4},
             };
 
             _dogs = new List<Dog>()
