@@ -5,10 +5,10 @@ using System.Linq;
 
 namespace InterviewCoding
 {
-    public class PersonService
+    public class PersonRepository
     {
         PersonContext personContext;
-        public PersonService()
+        public PersonRepository()
         {
             personContext = new PersonContext();
         }

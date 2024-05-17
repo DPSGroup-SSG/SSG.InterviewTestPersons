@@ -6,16 +6,16 @@ namespace InterviewCoding.Questions
 {
     public class PersonLogger
     {
-        private readonly PersonService _personService;
+        private readonly PersonRepository _personRepository;
         public PersonLogger()
         {
-            _personService = new PersonService();
+            _personRepository = new PersonRepository();
         }
 
 
         public void WriteToFile(string fullFileName)
         {
-            foreach (var person in _personService.GetAll())
+            foreach (var person in _personRepository.GetAll())
             {
                 var fullName = $"{person.FirstName} {person.LastName}";
                 File.AppendAllText(fullFileName, fullName + Environment.NewLine);

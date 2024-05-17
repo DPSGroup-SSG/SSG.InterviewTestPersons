@@ -4,7 +4,7 @@ using System.Linq;
 
 /*
 
-Prerequesite: Must have completed GetAll function in the PersonService (part of Question 1)
+Prerequesite: Must have completed GetAll function in the PersonRepository (part of Question 1)
 
 What is an Extension Method?
 Create an Extension Method called Reverse to reverse the Full Name strings on line 30 below.
@@ -16,14 +16,14 @@ namespace InterviewCoding.Questions
 {
     public class Question7
     {
-        private readonly PersonService _personService;
+        private readonly PersonRepository _personRepository;
         public Question7()
         {
-            _personService = new PersonService();
+            _personRepository = new PersonRepository();
         }
         public void Solution()
         {
-            var allPeople = _personService.GetAll();
+            var allPeople = _personRepository.GetAll();
 
             foreach (var person in allPeople)
             {

@@ -8,7 +8,7 @@ namespace InterviewCoding
     {
         static void Main(string[] args)
         {
-            var personService = new PersonService();
+            var personService = new PersonRepository();
 
 
             //var questionOne = new Question1();
