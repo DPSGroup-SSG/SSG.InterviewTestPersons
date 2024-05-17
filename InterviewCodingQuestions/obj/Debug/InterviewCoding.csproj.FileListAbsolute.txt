@@ -1,7 +1,0 @@
-C:\Work\Demos\Playwright\InterviewCoding\bin\Debug\InterviewCoding.exe.config
-C:\Work\Demos\Playwright\InterviewCoding\bin\Debug\InterviewCoding.exe
-C:\Work\Demos\Playwright\InterviewCoding\bin\Debug\InterviewCoding.pdb
-C:\Work\Demos\Playwright\InterviewCoding\obj\Debug\InterviewCoding.csproj.AssemblyReference.cache
-C:\Work\Demos\Playwright\InterviewCoding\obj\Debug\InterviewCoding.csproj.CoreCompileInputs.cache
-C:\Work\Demos\Playwright\InterviewCoding\obj\Debug\InterviewCoding.exe
-C:\Work\Demos\Playwright\InterviewCoding\obj\Debug\InterviewCoding.pdb
