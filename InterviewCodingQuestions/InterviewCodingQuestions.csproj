@@ -59,6 +59,15 @@
     <Compile Include="Questions\Question7.cs" />
     <Compile Include="Refactoring\ImproveCodeExercise.cs" />
     <Compile Include="Refactoring\PersonLogger.cs" />
+    <Compile Include="Types\BL\AgilityCalculator.cs" />
+    <Compile Include="Types\Data\AnimalRepository.cs" />
+    <Compile Include="Types\Interface\IAgility.cs" />
+    <Compile Include="Types\Interface\IAnimal.cs" />
+    <Compile Include="Types\Interface\INames.cs" />
+    <Compile Include="Types\Model\AnimalAgility.cs" />
+    <Compile Include="Types\Model\Cat.cs" />
+    <Compile Include="Types\Model\Dog.cs" />
+    <Compile Include="Types\Question.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

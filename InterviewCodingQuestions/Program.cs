@@ -1,5 +1,6 @@
 ﻿using System;
 using InterviewCoding.Questions;
+using InterviewCoding.Types;
 
 
 namespace InterviewCoding
@@ -31,6 +32,8 @@ namespace InterviewCoding
 
             //var questionSeven = new Question7();
             //questionSeven.Solution();
+
+            //new Question().Quesiton1();
 
             Console.ReadLine();
         }
