@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/InterviewCodingQandA/.vs/InterviewCoding/FileContentIndex/0f5aec4a-e82e-4a7a-ab13-56679c47f185.vsidx
+/.vs/VSWorkspaceState.json
+/InterviewCodingQandA/.vs/InterviewCoding/v17/TestStore/0/000.testlog
+/InterviewCodingQandA/.vs/InterviewCoding/v17/TestStore/0/testlog.manifest
+/InterviewCodingQandA/.vs/InterviewCoding/v17/.suo
+/InterviewCodingQandA/.vs/InterviewCoding/FileContentIndex
+/InterviewCodingQandA/.vs/
+/InterviewCodingQandA/obj/
+/InterviewCodingQandA/bin/
