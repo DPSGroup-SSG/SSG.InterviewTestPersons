@@ -6,6 +6,14 @@ Complete the method GetPeopleOrderedByAge(bool descending) in PersonService. It 
 Write each name on a new line in the console. $"{FirstName} {LastName}" 
 --
 
+Create a method in the Question4 class that will take in the list of Persons ordered by age ascending and return the list of Persons ordered by age descending.
+Write each name on a new line in the console. $"{FirstName} {LastName} {Age}" 
+
+--
+
+The Console.WriteLine can also be moved to it's own method and called. 
+Write a method that handles the console log to screen
+
 */
 
 namespace InterviewCoding.Questions
