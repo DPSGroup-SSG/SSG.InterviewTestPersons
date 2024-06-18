@@ -1,0 +1,28 @@
+﻿using BackendQuestions;
+
+var personService = new PersonService();
+
+//var questionOne = new Question1();
+//questionOne.Solution();
+
+//var questionTwo = new Question2();
+//questionTwo.Solution();
+
+//var questionThree = new Question3();
+//questionThree.Solution();
+
+//var questionFour = new Question4();
+//questionFour.Solution();
+
+//var questionFive = new Question5();
+//questionFive.Solution();
+
+//var questionSix = new Question6();
+//questionSix.Solution();
+
+//var questionSeven = new Question7();
+//questionSeven.Solution();
+
+//new Question().Quesiton1();
+
+Console.ReadLine();
